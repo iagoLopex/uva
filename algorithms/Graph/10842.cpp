@@ -45,7 +45,7 @@ int main(){
 		
 		int ans=inf;
 		sort(rall(adj));
-		for(int i=0; i<e; i++){
+		for(int i=0; i<(int)adj.size(); i++){
 			
 			int u = find(adj[i].s.f);
 			int v = find(adj[i].s.s);
